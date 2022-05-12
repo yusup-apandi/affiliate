@@ -1,0 +1,44 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Inter', sans-serif;
+}
+html,
+body {
+	height: 100%;
+}
+
+body {
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-align: center;
+	align-items: center;
+
+	background: linear-gradient(180deg, #054fa2 0%, rgba(5, 79, 162, 0) 100%);
+}
+
+/* Card */
+
+.card-custum {
+	background: #ffffff;
+	margin: 8px;
+	border-radius: 18px;
+}
+.form-control {
+	border: none;
+	background-color: #f8f9fa;
+}
+
+.inputs input {
+	width: 40px;
+	height: 40px;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	margin: 0;
+}
