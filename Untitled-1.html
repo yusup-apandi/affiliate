@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+
+    <!--Font Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+    <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+                <div class="card card-custum">
+                    <form action="#" class="form">
+                        <h1 class="text-center">Form Pendaftaran</h1>
+                        <!-- Progress bar -->
+                        <div class="progressbar">
+                            <div class="progress" id="progress"></div>
+
+                            <div class="progress-step progress-step-active" data-title="Data Diri"></div>
+                            <div class="progress-step" data-title="Media Sosial"></div>
+                            <div class="progress-step" data-title="Konfirmasi"></div>
+
+                        </div>
+
+                        <!-- Steps -->
+                        <div class="form-step form-step-active">
+                            <div class="input-group">
+                                <label for="username">Username</label>
+                                <input type="text" name="username" id="username" />
+                            </div>
+                            <div class="input-group">
+                                <label for="position">Position</label>
+                                <input type="text" name="position" id="position" />
+                            </div>
+                            <div class="">
+                                <a href="#" class="btn btn-next width-50 ml-auto">Next</a>
+                            </div>
+                        </div>
+                        <div class="form-step">
+                            <div class="input-group">
+                                <label for="phone">Phone</label>
+                                <input type="text" name="phone" id="phone" />
+                            </div>
+                            <div class="input-group">
+                                <label for="email">Email</label>
+                                <input type="text" name="email" id="email" />
+                            </div>
+                            <div class="btns-group">
+                                <a href="#" class="btn btn-prev">Previous</a>
+                                <a href="#" class="btn btn-next">Next</a>
+                            </div>
+                        </div>
+                        <div class="form-step">
+                            <div class="input-group">
+                                <label for="dob">Date of Birth</label>
+                                <input type="date" name="dob" id="dob" />
+                            </div>
+                            <div class="input-group">
+                                <label for="ID">National ID</label>
+                                <input type="number" name="ID" id="ID" />
+                            </div>
+                            <div class="btns-group">
+                                <a href="#" class="btn btn-prev">Previous</a>
+                                <input type="submit" value="Submit" class="btn" />
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/formwizart.js"></script>
+
+</body>
+
+</html>
