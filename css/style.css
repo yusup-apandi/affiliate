@@ -59,3 +59,9 @@ input[type=number]::-webkit-outer-spin-button {
 	background-color: #51ae20;
 	color: #ffffff;
 }
+
+/* bs Stepper */
+.step-trigger {
+	padding-left: 0px;
+	padding-right: 0px;
+}

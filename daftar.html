@@ -14,213 +14,221 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
 
-    <!--CSS-->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <!--Stepper-->
+    <link rel="stylesheet" href="css/bs-stepper.min.css">
 
+    <!--Font Awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!--Stepper-->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bs-stepper/dist/css/bs-stepper.min.css">
-
-    <!-- Custom styles for this template -->
-    <link href="style.css" rel="stylesheet">
-    <style>
-        .bd-placeholder-img {
-            font-size: 1.125rem;
-            text-anchor: middle;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            user-select: none;
-        }
-
-        @media (min-width: 768px) {
-            .bd-placeholder-img-lg {
-                font-size: 3.5rem;
-            }
-        }
-    </style>
-
-    <style>
-        @media screen and (max-width: 992px) {
-            .kbw-signature {
-                width: 280px;
-                height: 200px;
-
-            }
-        }
-
-        @media screen and (max-width: 400px) {
-            .kbw-signature {
-                width: 230px;
-                height: 200px;
-
-            }
-        }
-    </style>
+    <!--CSS-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 
 <body>
-
-    <div class="container flex-grow-1 flex-shrink-0" style="padding-bottom: 3rem!important;">
-        <div class="mb-5 p-4 bg-white shadow-sm" style="border-radius: 10px;">
-            <h3 style="text-align: center;">Formulir Pelaporan Kehilangan</h3>
-            <div id="stepper1" class="bs-stepper">
-                <div class="bs-stepper-header" role="tablist">
-                    <div class="step" data-target="#test-l-1">
-                        <button type="button" class="step-trigger" role="tab" id="stepper1trigger1"
-                            aria-controls="test-l-1">
-                            <span class="bs-stepper-circle">1</span>
-                            <span class="bs-stepper-label">Informasi Akun</span>
-                        </button>
-                    </div>
-                    <div class="bs-stepper-line"></div>
-                    <div class="step" data-target="#test-l-2">
-                        <button type="button" class="step-trigger" role="tab" id="stepper1trigger2"
-                            aria-controls="test-l-2">
-                            <span class="bs-stepper-circle">2</span>
-                            <span class="bs-stepper-label">Informasi Media Sosial</span>
-                        </button>
-                    </div>
-                    <div class="bs-stepper-line"></div>
-                    <div class="step" data-target="#test-l-3">
-                        <button type="button" class="step-trigger" role="tab" id="stepper1trigger3"
-                            aria-controls="test-l-3">
-                            <span class="bs-stepper-circle">3</span>
-                            <span class="bs-stepper-label">Konfirmasi</span>
-                        </button>
-                    </div>
-                </div>
-                <div class="bs-stepper-content">
-                    <form onSubmit="return false">
-                        <div id="test-l-1" role="tabpanel" class="bs-stepper-pane" aria-labelledby="stepper1trigger1">
-                            <div class="wrapper">
-                                <div class="form">
-
-                                    <div class="form-group">
-                                        <label for="nama">Nama Lengkap<span>*</span></label>
-                                        <input type="text" class="form-control" id="email"
-                                            placeholder="Masukan Nama Lengkap" required autofocus>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="no-hp">Nomor HP<span>*</span></label>
-                                        <input type="number" class="form-control" placeholder="Masukan Nomor HP"
-                                            required>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="prov">Provinsi<span>*</span></label>
-                                        <select class="form-control" id="prov">
-                                            <option>Pilih Provinsi</option>
-                                            <option>Jawa Barat</option>
-                                            <option>Jawa Tengah</option>
-                                        </select>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="kab">Kabupaten/Kota<span>*</span></label>
-                                        <select class="form-control" id="kab">
-                                            <option>Pilih Kabupaten/Kota</option>
-                                            <option>Sumedang</option>
-                                            <option>Cimalaka</option>
-                                        </select>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="kec">Kecamatan<span>*</span></label>
-                                        <select class="form-control" id="kec">
-                                            <option>Pilih Kecamatan</option>
-                                            <option>Sumedang Utara</option>
-                                            <option>Sumedang Selatan</option>
-                                        </select>
-                                    </div>
-                                </div>
+    <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-12 col-md-8 col-lg-8 col-xl-8">
+                <div class="mb-5 p-4 bg-white shadow-sm" style="border-radius: 10px;">
+                    <h3 style="text-align: center;">Formulir Pembuatan Akun</h3>
+                    <div id="stepper1" class="bs-stepper">
+                        <div class="bs-stepper-header" role="tablist">
+                            <div class="step" data-target="#test-l-1">
+                                <button type="button" class="step-trigger" role="tab" id="stepper1trigger1"
+                                    aria-controls="test-l-1">
+                                    <span class="bs-stepper-circle">1</span>
+                                    <span class="bs-stepper-label">Informasi Akun</span>
+                                </button>
                             </div>
-                            <button class="btn btn-primary float-right" onclick="stepper1.next()">Selanjutnya</button>
+                            <div class="bs-stepper-line"></div>
+                            <div class="step" data-target="#test-l-2">
+                                <button type="button" class="step-trigger" role="tab" id="stepper1trigger2"
+                                    aria-controls="test-l-2">
+                                    <span class="bs-stepper-circle">2</span>
+                                    <span class="bs-stepper-label">Informasi Media Sosial</span>
+                                </button>
+                            </div>
+                            <div class="bs-stepper-line"></div>
+                            <div class="step" data-target="#test-l-3">
+                                <button type="button" class="step-trigger" role="tab" id="stepper1trigger3"
+                                    aria-controls="test-l-3">
+                                    <span class="bs-stepper-circle">3</span>
+                                    <span class="bs-stepper-label">Konfirmasi</span>
+                                </button>
+                            </div>
                         </div>
-                        <div id="test-l-2" role="tabpanel" class="bs-stepper-pane" aria-labelledby="stepper1trigger2">
-                            <div class="wrapper">
-                                <div class="form">
-                                    <div class="form-group">
-                                        <label for="fb">Link Profile Facebook</label>
-                                        <div class="input-group" id="fb">
-                                            <input type="text" name='facebook' class="form-control" name="fb"
-                                                placeholder="facebook.com/sadigit" required">
-                                            <div class="input-group-append">
-                                                <a href="" class="btn btn-light"><i
-                                                        class="fa-brands fa-facebook"></i></a>
+                        <div class="bs-stepper-content">
+                            <form onSubmit="return false">
+                                <div id="test-l-1" role="tabpanel" class="bs-stepper-pane"
+                                    aria-labelledby="stepper1trigger1">
+                                    <div class="wrapper">
+                                        <div class="form">
+
+                                            <div class="form-group">
+                                                <label for="nama">Nama Lengkap<span>*</span></label>
+                                                <input type="text" class="form-control" id="nama"
+                                                    placeholder="Masukan Nama Lengkap" required autofocus>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="no-hp">Nomor HP<span>*</span></label>
+                                                <input type="number" class="form-control" placeholder="Masukan Nomor HP"
+                                                    required>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="prov">Provinsi<span>*</span></label>
+                                                <select class="form-control" id="prov">
+                                                    <option>Pilih Provinsi</option>
+                                                    <option>Jawa Barat</option>
+                                                    <option>Jawa Tengah</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="kab">Kabupaten/Kota<span>*</span></label>
+                                                <select class="form-control" id="kab">
+                                                    <option>Pilih Kabupaten/Kota</option>
+                                                    <option>Sumedang</option>
+                                                    <option>Cimalaka</option>
+                                                </select>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="kec">Kecamatan<span>*</span></label>
+                                                <select class="form-control" id="kec">
+                                                    <option>Pilih Kecamatan</option>
+                                                    <option>Sumedang Utara</option>
+                                                    <option>Sumedang Selatan</option>
+                                                </select>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="yt">Link Profile Youtube</label>
-                                        <div class="input-group" id="yt">
-                                            <input type="text" name='youtube' class="form-control" name="fb"
-                                                placeholder="youtube.com/sadigit" required">
-                                            <div class="input-group-append">
-                                                <a href="" class="btn btn-light"><i
-                                                        class="fa-brands fa-youtube"></i></a>
-                                            </div>
+                                        <div class="flex text-right">
+                                            <button class="btn btn-primary"
+                                                onclick="stepper1.next()">Selanjutnya</button>
                                         </div>
+
                                     </div>
                                 </div>
-                            </div>
-                            <button class="btn btn-primary" style="float: right; margin-left: 10px;bottom: 35px;"
-                                onclick="stepper1.next()">Selanjutnya</button>
-
-                            <button class="btn btn-secondary" style="float: right;bottom: 35px;" onclick="
+                                <div id="test-l-2" role="tabpanel" class="bs-stepper-pane"
+                                    aria-labelledby="stepper1trigger2">
+                                    <div class="wrapper">
+                                        <div class="form">
+                                            <div class="form-group">
+                                                <label for="fb">Link Profile Facebook</label>
+                                                <div class="input-group" id="fb">
+                                                    <input type="text" name='facebook' class="form-control" name="fb"
+                                                        placeholder="facebook.com/sadigit" required">
+                                                    <div class="input-group-append">
+                                                        <a href="" class="btn btn-light"><i
+                                                                class="fa-brands fa-facebook"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="ig">Link Profile Instagram</label>
+                                                <div class="input-group" id="ig">
+                                                    <input type="text" name='instagram' class="form-control" name="ig"
+                                                        placeholder="instagram.com/sadigit" required">
+                                                    <div class="input-group-append">
+                                                        <a href="" class="btn btn-light"><i
+                                                                class="fa-brands fa-instagram"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="yt">Link Profile Youtube</label>
+                                                <div class="input-group" id="yt">
+                                                    <input type="text" name='youtube' class="form-control" name="fb"
+                                                        placeholder="youtube.com/sadigit" required">
+                                                    <div class="input-group-append">
+                                                        <a href="" class="btn btn-light"><i
+                                                                class="fa-brands fa-youtube"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="tiktok">Link Profile Tiktok</label>
+                                                <div class="input-group" id="tiktok">
+                                                    <input type="text" name='tiktok' class="form-control" name="tiktok"
+                                                        placeholder="tiktok.com/sadigit" required">
+                                                    <div class="input-group-append">
+                                                        <a href="" class="btn btn-light"><i
+                                                                class="fa-brands fa-tiktok"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="flex text-right">
+                                            <button class="btn btn-secondary" onclick="
                                     stepper1.previous()">Kembali</button>
-                        </div>
-                        <div id="test-l-3" role="tabpanel" class="bs-stepper-pane" aria-labelledby="stepper1trigger3">
-                            <div class="wrapper">
-                                <div class="form">
-                                    <div class="form-group">
-                                        <label for="email">Alamat Email</label>
-                                        <input type="email" class="form-control" id="email" placeholder="Masukan Email"
-                                            required>
+                                            <button class="btn btn-primary"
+                                                onclick="stepper1.next()">Selanjutnya</button>
+                                        </div>
+
+
                                     </div>
-                                    <div class="form-group">
-                                        <label for="password">Kata Sandi</label>
-                                        <div class="input-group" id="show_hide_password">
-                                            <input type="password" name='password' class="form-control" name="password"
-                                                placeholder="Masukan kata sandi" required
-                                                autocomplete="current-password">
-                                            <div class="input-group-append">
-                                                <a href="" class="btn btn-light"><i class="far fa-eye"
-                                                        aria-hidden="true"></i></a>
+
+                                </div>
+                                <div id="test-l-3" role="tabpanel" class="bs-stepper-pane"
+                                    aria-labelledby="stepper1trigger3">
+                                    <div class="wrapper">
+                                        <div class="form">
+                                            <div class="form-group">
+                                                <label for="email">Alamat Email</label>
+                                                <input type="email" class="form-control" id="email"
+                                                    placeholder="Masukan Email" required>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="password">Kata Sandi</label>
+                                                <div class="input-group" id="show_hide_password">
+                                                    <input type="password" name='password' class="form-control"
+                                                        name="password" placeholder="Masukan kata sandi" required
+                                                        autocomplete="current-password">
+                                                    <div class="input-group-append">
+                                                        <a href="" class="btn btn-light"><i class="far fa-eye"
+                                                                aria-hidden="true"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="password">Masukan Ulang Kata Sandi</label>
+                                                <div class="input-group" id="show_hide_password">
+                                                    <input type="password" name='password' class="form-control"
+                                                        name="password" placeholder="Masukan ulang kata sandi" required
+                                                        autocomplete="current-password">
+                                                    <div class="input-group-append">
+                                                        <a href="" class="btn btn-light"><i class="far fa-eye"
+                                                                aria-hidden="true"></i></a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="form-check mb-2">
+                                                <input class="form-check-input" type="checkbox" value=""
+                                                    id="defaultCheck1" required>
+                                                <label class="form-check-label" for="defaultCheck1">
+                                                    Dengan mendaftar kamu sudah menyetujui <a href="#">Kebijakan
+                                                        Layanan</a> dan
+                                                    <a href="#">Privasi</a>
+                                                    platform kami.
+                                                </label>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="password">Masukan Ulang Kata Sandi</label>
-                                        <div class="input-group" id="show_hide_password">
-                                            <input type="password" name='password' class="form-control" name="password"
-                                                placeholder="Masukan ulang kata sandi" required
-                                                autocomplete="current-password">
-                                            <div class="input-group-append">
-                                                <a href="" class="btn btn-light"><i class="far fa-eye"
-                                                        aria-hidden="true"></i></a>
-                                            </div>
+                                        <div class="flex text-right">
+                                            <button class="btn btn-secondary "
+                                                onclick="stepper1.previous()">Kembali</button>
+                                            <button type="submit" class="btn btn-primary kirim">Kirim</button>
                                         </div>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1"
-                                            required>
-                                        <label class="form-check-label" for="defaultCheck1">
-                                            Dengan mendaftar kamu sudah menyetujui <a href="#">Kebijakan Layanan</a> dan
-                                            <a href="#">Privasi</a>
-                                            platform kami.
-                                        </label>
+
                                     </div>
                                 </div>
-                                <button type="submit" class="btn btn-primary kirim"
-                                    style="float: right; margin-left: 10px; ">Kirim</button>
-                                <button class="btn btn-secondary " style="float: right;"
-                                    onclick="stepper1.previous()">Kembali</button>
-                            </div>
+                            </form>
                         </div>
-                    </form>
+                    </div>
+                    <div class="my-3 text-center">
+                        <p class="small">Sudah punya akun? <a href="index.html">Masuk</a></p>
+                    </div>
                 </div>
+
             </div>
         </div>
     </div>
@@ -228,9 +236,9 @@
     <!--JS-->
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bs-stepper/dist/js/bs-stepper.min.js"></script>
+    <script src="js/bs-stepper.min.js"></script>
 
-
+    <!--Script Bs Stepper-->
     <script>
         $(document).ready(function () {
             var stepper = new Stepper($('.bs-stepper')[0])
@@ -293,6 +301,8 @@
             })
         })
     </script>
+
+    <!--Script Show Hide PW-->
     <script>
         $(document).ready(function () {
             $("#show_hide_password a").on('click', function (event) {
