@@ -13,13 +13,35 @@ html,
 body {
 	height: 100%;
 }
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #234361;
+}
+
+.primary {
+	color: #15d16c;
+}
+.btn-primary {
+	background-color: #15d16c;
+	border-color: #15d16c;
+}
 .hero {
 	margin-top: 78px;
 	background: #fbfbfb url("../assets/bg-hero.svg")no-repeat;
 }
 .bread {
 	margin-top: 78px;
-	background-color: #ffffff;
+	background: #fbfbfb url("../assets/bg-bread.svg")no-repeat;
 }
 .blur {
 	background: rgba(255, 255, 255, 0.5);
