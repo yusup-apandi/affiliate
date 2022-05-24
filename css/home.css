@@ -25,16 +25,26 @@ h3,
 h4,
 h5,
 h6 {
-	color: #234361;
+	color: #23436;
 }
 
 .primary {
 	color: #15d16c;
 }
-.btn-primary {
+.bg-affiliate {
+	background-color: #15d16c;
+}
+.btn-affiliate {
 	background-color: #15d16c;
 	border-color: #15d16c;
+	color: #ffffff;
 }
+
+.btn-affiliate:hover {
+	background-color: #20b565;
+	color: #ffffff;
+}
+
 .hero {
 	margin-top: 78px;
 	background: #ffffff url("../assets/bg-hero.svg")no-repeat;
