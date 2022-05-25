@@ -47,16 +47,20 @@ input[type=number]::-webkit-outer-spin-button {
 	appearance: none;
 	margin: 0;
 }
-.btn-primary {
-	background-color: #5ac123;
-	border: none;
+.primary {
+	color: #15d16c;
 }
-.btn-primary:hover {
-	background-color: #51ae20;
+.bg-affiliate {
+	background-color: #15d16c;
+}
+.btn-affiliate {
+	background-color: #15d16c;
+	border-color: #15d16c;
 	color: #ffffff;
 }
-.btn-primary:onclick {
-	background-color: #51ae20;
+
+.btn-affiliate:hover {
+	background-color: #20b565;
 	color: #ffffff;
 }
 
