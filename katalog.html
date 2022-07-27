@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Affiliate Sadigit</title>
+    <link rel="shortcut icon" href="assets/favicon.png">
+
+    <!--Font Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!-- NAVBAR-->
+    <nav class="navbar fixed-top navbar-expand-lg py-3 navbar-light  blur ">
+        <div class="container-fluid">
+            <a href="index.html" class="navbar-brand">
+                <!-- Logo Image -->
+                <img src="assets/logo.svg" width="auto" height="34" alt="" class="d-inline-block align-middle mr-2">
+            </a>
+
+            <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+
+            <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Beranda</a></li>
+                    <li class="nav-item active"><a href="katalog.html" class="nav-link">Katalog Aplikasi</a></li>
+                </ul>
+                <button onclick="window.location.href='login.html'" type="button" class="btn btn-affiliate">
+                    Daftar
+                </button>
+            </div>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <button onclick="topFunction()" id="scroll-btn" title="Top">&uarr;</button>
+
+    <section class="d-flex align-items-center hero ">
+        <div class="container-fluid">
+            <!-- SLIDER BLANTER -->
+            <div class='sliderbanner container'>
+                <div class='owl-carousel owl-theme' id='blanter-carousel'>
+                    <!-- START -->
+                    <div class='blanter-owl-image'>
+                        <a href='index.html' target='_blank' title='Slider'>
+                            <img alt='Slider' src='assets/img/katalog/slide1.png' />
+                        </a>
+                    </div>
+                    <div class='blanter-owl-image'>
+                        <a href='index.html' target='_blank' title='Slider'>
+                            <img alt='Slider' src='assets/img/katalog/slide1.png' />
+                        </a>
+                    </div>
+                    <div class='blanter-owl-image'>
+                        <a href='index.html' target='_blank' title='Slider'>
+                            <img alt='Slider' src='assets/img/katalog/slide1.png' />
+                        </a>
+                    </div>
+
+                    <!-- END -->
+                </div>
+            </div>
+            <!-- END SLIDER BLANTER -->
+        </div>
+    </section>
+
+
+
+    <!-- Keuntungan Section -->
+    <section id="produk" class="main d-flex py-5 produk">
+        <div class="container">
+            <div class="section-title my-lg-5 my-sm-2">
+                <!-- hidden only on sm -->
+                <h1 class="display-4 font-weight-bold d-none d-sm-none d-md-block d-lg-block d-xl-block">
+                    Daftar Aplikasi
+                </h1>
+                <!-- visible only on sm -->
+                <h1 class="display-5 font-weight-bold d-sm-block d-md-none d-lg-none d-xl-none">
+                    Daftar Aplikasi
+                </h1>
+
+                <h3 class="lead text-black">
+                    Bagikan link dan dapatkan komisi.
+                </h3>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                    <div class="card card-catalogue mb-4">
+                        <div>
+                            <img src="assets/img/katalog/sipujaan.png" class="d-inline-block align-top" width="auto"
+                                height="auto" alt="...">
+                        </div>
+                        <div class="card-body p-0">
+                            <p class="text-secondary mb-0">E-Goverment</p>
+                            <h5 class="card-text font-weight-bold text-dark">Aplikasi SIPPUJAAN</h5>
+                            <p class=" mb-0">Sistem monitoring dan pelaporan gangguan penerangan jalanan umum berbasis
+                                android.</p>
+                            <div class="d-flex justify-content-between mt-2 p-3 cta-catalogue">
+                                <div>
+                                    <div class="d-flex flex-column">
+                                        <div class="h6">Total Komisi:
+                                        </div>
+                                        <div class="h5 font-weight-bold">10 - 15jt</div>
+                                    </div>
+                                </div>
+                                <a href="https://www.sadigit.co.id/aplikasi-bphtb-online/"
+                                    class="ml-auto my-auto primary" target="_blank">Detail -></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                    <div class="card card-catalogue mb-4">
+                        <div>
+                            <img src="assets/img/katalog/BPHTB.png" class="d-inline-block align-top" width="auto"
+                                height="auto" alt="...">
+                        </div>
+                        <div class="card-body p-0">
+                            <p class="text-secondary mb-0">E-Goverment</p>
+                            <h5 class="card-text font-weight-bold">Aplikasi BPHTB</h5>
+                            <p class="mb-0 text-dark">Sistem informasi pengelolaan bea perolehan hak
+                                atas tanah dan bangunan (BPHTB).</p>
+                            <div class="d-flex justify-content-between mt-2 p-3 cta-catalogue">
+                                <div>
+                                    <div class="d-flex flex-column">
+                                        <div class="h6">Total Komisi:
+                                        </div>
+                                        <div class="h5 font-weight-bold">10 - 15jt</div>
+                                    </div>
+                                </div>
+                                <a href="https://www.sadigit.co.id/aplikasi-bphtb-online/"
+                                    class="ml-auto my-auto primary" target="_blank">Detail -></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                    <div class="card card-catalogue mb-4">
+                        <div>
+                            <img src="assets/img/katalog/siapdol.png" class="d-inline-block align-top" width="auto"
+                                height="auto" alt="...">
+                        </div>
+                        <div class="card-body p-0">
+                            <p class="text-secondary mb-0">E-Goverment</p>
+                            <h5 class="card-text font-weight-bold">Aplikasi SIAPDOL</h5>
+                            <p class="mb-0 text-dark">Dashboard realisasi pajak daerah yang terintegrasi dengan semua
+                                jenis pajak
+                                daerah.</p>
+                            <div class="d-flex justify-content-between mt-2 p-3 cta-catalogue">
+                                <div>
+                                    <div class="d-flex flex-column">
+                                        <div class="h6">Total Komisi:
+                                        </div>
+                                        <div class="h5 font-weight-bold">10 - 15jt</div>
+                                    </div>
+                                </div>
+                                <a href="https://www.sadigit.co.id/sistem-aplikasi-pajak-daerah-online/"
+                                    class="ml-auto my-auto primary" target="_blank">Detail -></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                    <div class="card card-catalogue mb-4">
+                        <div>
+                            <img src="assets/img/katalog/sipadu.png" class="d-inline-block align-top" width="auto"
+                                height="auto" alt="...">
+                        </div>
+                        <div class="card-body p-0">
+                            <p class="text-secondary mb-0">E-Goverment</p>
+                            <h5 class="card-text font-weight-bold">Aplikasi SIPADU</h5>
+                            <p class="mb-0 text-dark">Aplikasi yang diperuntukkan
+                                bagi wajib pajak atau objek pajak dalam pelaporan pajak daerah.</p>
+                            <div class="d-flex justify-content-between mt-2 p-3 cta-catalogue">
+                                <div>
+                                    <div class="d-flex flex-column">
+                                        <div class="h6">Total Komisi:
+                                        </div>
+                                        <div class="h5 font-weight-bold">10 - 15jt</div>
+                                    </div>
+                                </div>
+                                <a href="https://www.sadigit.co.id/sistem-pengelolaan-pajak-terpadu/"
+                                    class="ml-auto my-auto primary" target="_blank">Detail -></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                    <div class="card card-catalogue mb-4">
+                        <div>
+                            <img src="assets/img/katalog/faslalin.png" class="d-inline-block align-top" width="auto"
+                                height="auto" alt="...">
+                        </div>
+                        <div class="card-body p-0">
+                            <p class="text-secondary mb-0">E-Goverment</p>
+                            <h5 class="card-text font-weight-bold">Aplikasi FASLALIN</h5>
+                            <p class="mb-0 text-dark">Aplikasi yang
+                                memudahkan masyarakat dalam mengadukan permasalahan terhadap
+                                perlengkapan lalu lintas.</p>
+                            <div class="d-flex justify-content-between mt-2 p-3 cta-catalogue">
+                                <div>
+                                    <div class="d-flex flex-column">
+                                        <div class="h6">Total Komisi:
+                                        </div>
+                                        <div class="h5 font-weight-bold">10 - 15jt</div>
+                                    </div>
+                                </div>
+                                <a href="https://www.sadigit.co.id/aplikasi-fasilitas-lalu-lintas/"
+                                    class="ml-auto my-auto primary" target="_blank">Detail -></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                    <div class="card card-catalogue mb-4">
+                        <div>
+                            <img src="assets/img/katalog/sidata.png" class="d-inline-block align-top" width="auto"
+                                height="auto" alt="...">
+                        </div>
+                        <div class="card-body p-0">
+                            <p class="text-secondary mb-0">E-Goverment</p>
+                            <h5 class="card-text font-weight-bold">Aplikasi SIDATA Pertanahan</h5>
+                            <p class="mb-0 text-dark">Sistem informasi yang memudahkan pihak DPKPP dalam mengelola data
+                                pertanahan
+                                milik pemerintah.</p>
+                            <div class="d-flex justify-content-between mt-2 p-3 cta-catalogue">
+                                <div>
+                                    <div class="d-flex flex-column">
+                                        <div class="h6">Total Komisi:
+                                        </div>
+                                        <div class="h5 font-weight-bold">10 - 15jt</div>
+                                    </div>
+                                </div>
+                                <a href="https://www.sadigit.co.id/aplikasi-data-pertanahan/"
+                                    class="ml-auto my-auto primary" target="_blank">Detail -></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                    <div class="card card-catalogue mb-4">
+                        <div>
+                            <img src="assets/img/katalog/pbb.png" class="d-inline-block align-top" width="auto"
+                                height="auto" alt="...">
+                        </div>
+                        <div class="card-body p-0">
+                            <p class="text-secondary mb-0">E-Goverment</p>
+                            <h5 class="card-text font-weight-bold">Aplikasi Smart PBB</h5>
+                            <p class="mb-0 text-dark">Sistem informasi untuk mendukung
+                                kegiatan pengelolaan dan pelayanan pajak bumi dan bangunan.</p>
+                            <div class="d-flex justify-content-between mt-2 p-3 cta-catalogue">
+                                <div>
+                                    <div class="d-flex flex-column">
+                                        <div class="h6">Total Komisi:
+                                        </div>
+                                        <div class="h5 font-weight-bold">10 - 15jt</div>
+                                    </div>
+                                </div>
+                                <a href="https://www.sadigit.co.id/aplikasi-smart-pbb/" class="ml-auto my-auto primary"
+                                    target="_blank">Detail -></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                    <div class="card card-catalogue mb-4">
+                        <div>
+                            <img src="assets/img/katalog/resto_enter.png" class="d-inline-block align-top" width="auto"
+                                height="auto" alt="...">
+                        </div>
+                        <div class="card-body p-0">
+                            <p class="text-secondary mb-0">E-Goverment</p>
+                            <h5 class="card-text font-weight-bold">Smart Resto Enterprise</h5>
+                            <p class="mb-0 text-dark">Aplikasi untuk mengelola dan memonitoring Restoran di sekitar,
+                                juga dapat memantau
+                                perolehan pajak resto.</p>
+                            <div class="d-flex justify-content-between mt-2 p-3 cta-catalogue">
+                                <div>
+                                    <div class="d-flex flex-column">
+                                        <div class="h6">Total Komisi:
+                                        </div>
+                                        <div class="h5 font-weight-bold">10 - 15jt</div>
+                                    </div>
+                                </div>
+                                <a href="https://www.sadigit.co.id/smart-resto-enterprise/"
+                                    class="ml-auto my-auto primary" target="_blank">Detail -></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                    <div class="card card-catalogue mb-4">
+                        <div>
+                            <img src="assets/img/katalog/gudang.png" class="d-inline-block align-top" width="auto"
+                                height="auto" alt="...">
+                        </div>
+                        <div class="card-body p-0">
+                            <p class="text-secondary mb-0">Aplikasi Umum</p>
+                            <h5 class="card-text font-weight-bold">Smart Gudang</h5>
+                            <p class="mb-0 text-dark">Aplikasi untuk mengelola dan memonitoring Restoran di sekitar,
+                                juga dapat memantau
+                                perolehan pajak resto.</p>
+                            <div class="d-flex justify-content-between mt-2 p-3 cta-catalogue">
+                                <div>
+                                    <div class="d-flex flex-column">
+                                        <div class="h6">Total Komisi:
+                                        </div>
+                                        <div class="h5 font-weight-bold">150rb - 3jt</div>
+                                    </div>
+                                </div>
+                                <a href="https://www.sadigit.co.id/smart-gudang/" class="ml-auto my-auto primary"
+                                    target="_blank">Detail -></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                    <div class="card card-catalogue mb-4">
+                        <div>
+                            <img src="assets/img/katalog/simasko-single.png" class="d-inline-block align-top"
+                                width="auto" height="auto" alt="...">
+                        </div>
+                        <div class="card-body p-0">
+                            <p class="text-secondary mb-0">Aplikasi Umum</p>
+                            <h5 class="card-text font-weight-bold">Aplikasi SIMASKO V2</h5>
+                            <p class="mb-0 text-dark">Merupakan aplikasi berbasis web,
+                                yang memudahkan dalam manajemen servis dan penjualan komputer.</p>
+                            <div class="d-flex justify-content-between mt-2 p-3 cta-catalogue">
+                                <div>
+                                    <div class="d-flex flex-column">
+                                        <div class="h6">Total Komisi:
+                                        </div>
+                                        <div class="h5 font-weight-bold">150rb - 3jt</div>
+                                    </div>
+                                </div>
+                                <a href="https://www.sadigit.co.id/aplikasi-manajemen-servis-dan-toko-komputer/"
+                                    class="ml-auto my-auto primary" target="_blank">Detail -></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                    <div class="card card-catalogue mb-4">
+                        <div>
+                            <img src="assets/img/katalog/resto.png" class="d-inline-block align-top" width="auto"
+                                height="auto" alt="...">
+                        </div>
+                        <div class="card-body p-0">
+                            <p class="text-secondary mb-0">Aplikasi Umum</p>
+                            <h5 class="card-text font-weight-bold">Smart Resto V3</h5>
+                            <p class="mb-0 text-dark">Sistem yang memudahkan kamu dalam pengelolaan restoran. Pesanan
+                                makanan
+                                jadi lebih mudah dan cepat.</p>
+                            <div class="d-flex justify-content-between mt-2 p-3 cta-catalogue">
+                                <div>
+                                    <div class="d-flex flex-column">
+                                        <div class="h6">Total Komisi:
+                                        </div>
+                                        <div class="h5 font-weight-bold">150rb - 3jt</div>
+                                    </div>
+                                </div>
+                                <a href="https://www.sadigit.co.id/aplikasi-smart-resto/"
+                                    class="ml-auto my-auto primary" target="_blank">Detail -></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                    <div class="card card-catalogue mb-4">
+                        <div>
+                            <img src="assets/img/katalog/grosir.png" class="d-inline-block align-top" width="auto"
+                                height="auto" alt="...">
+                        </div>
+                        <div class="card-body p-0">
+                            <p class="text-secondary mb-0">Aplikasi Umum</p>
+                            <h5 class="card-text font-weight-bold">Smart Grosir</h5>
+                            <p class="mb-0 text-dark">Aplikasi pengelolaan produk, penjualan, dan fitur lainnya yang
+                                membantu
+                                pengelolaan grosir kamu lebih mudah.</p>
+                            <div class="d-flex justify-content-between mt-2 p-3 cta-catalogue">
+                                <div>
+                                    <div class="d-flex flex-column">
+                                        <div class="h6">Total Komisi:
+                                        </div>
+                                        <div class="h5 font-weight-bold">150rb - 3jt</div>
+                                    </div>
+                                </div>
+                                <a href="https://www.sadigit.co.id/smart-grosir/" class="ml-auto my-auto primary"
+                                    target="_blank">Detail -></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                    <div class="card card-catalogue mb-4">
+                        <div>
+                            <img src="assets/img/katalog/apotek.png" class="d-inline-block align-top" width="auto"
+                                height="auto" alt="...">
+                        </div>
+                        <div class="card-body p-0">
+                            <p class="text-secondary mb-0">Aplikasi Umum</p>
+                            <h5 class="card-text font-weight-bold">Smart Apotek</h5>
+                            <p class="mb-0 text-dark">Pengelolaan toko apotek yang
+                                didalamnya terdapat kelola obat, kelola pegawai, pembelian obat dll.</p>
+                            <div class="d-flex justify-content-between mt-2 p-3 cta-catalogue">
+                                <div>
+                                    <div class="d-flex flex-column">
+                                        <div class="h6">Total Komisi:
+                                        </div>
+                                        <div class="h5 font-weight-bold">150rb - 3jt</div>
+                                    </div>
+                                </div>
+                                <a href="https://www.sadigit.co.id/smart-apotik/" class="ml-auto my-auto primary"
+                                    target="_blank">Detail -></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                    <div class="card card-catalogue mb-4">
+                        <div>
+                            <img src="assets/img/katalog/bengkel.png" class="d-inline-block align-top" width="auto"
+                                height="auto" alt="...">
+                        </div>
+                        <div class="card-body p-0">
+                            <p class="text-secondary mb-0">Aplikasi Umum</p>
+                            <h5 class="card-text font-weight-bold">Aplikasi Bengkel</h5>
+                            <p class="mb-0 text-dark">Aplikasi bengkel berbasis mobile ini cocok dimiliki oleh pengusaha
+                                bengkel yang ingin bertranformasi ke digital.</p>
+                            <div class="d-flex justify-content-between mt-2 p-3 cta-catalogue">
+                                <div>
+                                    <div class="d-flex flex-column">
+                                        <div class="h6">Total Komisi:
+                                        </div>
+                                        <div class="h5 font-weight-bold">150rb - 3jt</div>
+                                    </div>
+                                </div>
+                                <a href="https://www.sadigit.co.id/aplikasi-bengkel-online/"
+                                    class="ml-auto my-auto primary" target="_blank">Detail -></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                    <div class="card card-catalogue mb-4">
+                        <div>
+                            <img src="assets/img/katalog/market.png" class="d-inline-block align-top" width="auto"
+                                height="auto" alt="...">
+                        </div>
+                        <div class="card-body p-0">
+                            <p class="text-secondary mb-0">Aplikasi Umum</p>
+                            <h5 class="card-text font-weight-bold">Smart Market</h5>
+                            <p class="mb-0 text-dark">Aplikasi yang cocok untuk pusat perbelanjaan, mall, dll dalam
+                                memasarkan
+                                produknya secara online.</p>
+                            <div class="d-flex justify-content-between mt-2 p-3 cta-catalogue">
+                                <div>
+                                    <div class="d-flex flex-column">
+                                        <div class="h6">Total Komisi:
+                                        </div>
+                                        <div class="h5 font-weight-bold">150rb - 3jt</div>
+                                    </div>
+                                </div>
+                                <a href="https://www.sadigit.co.id/aplikasi-smart-market/"
+                                    class="ml-auto my-auto primary" target="_blank">Detail -></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                    <div class="card card-catalogue mb-4">
+                        <div>
+                            <img src="assets/img/katalog/antrian.png" class="d-inline-block align-top" width="auto"
+                                height="auto" alt="...">
+                        </div>
+                        <div class="card-body p-0">
+                            <p class="text-secondary mb-0">Aplikasi Umum</p>
+                            <h5 class="card-text font-weight-bold">Software Antrian</h5>
+                            <p class="mb-0 text-dark">Aplikasi yang cocok digunakan untuk pelayanan umum, dalam
+                                memudahkan
+                                manajemen antrian.</p>
+                            <div class="d-flex justify-content-between mt-2 p-3 cta-catalogue">
+                                <div>
+                                    <div class="d-flex flex-column">
+                                        <div class="h6">Total Komisi:
+                                        </div>
+                                        <div class="h5 font-weight-bold">150rb - 3jt</div>
+                                    </div>
+                                </div>
+                                <a href="https://www.sadigit.co.id/software-mesin-antrian/""
+                                class=" ml-auto my-auto primary" target="_blank">Detail -></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                    <div class="card card-catalogue mb-4">
+                        <div>
+                            <img src="assets/img/katalog/website.png" class="d-inline-block align-top" width="auto"
+                                height="auto" alt="...">
+                        </div>
+                        <div class="card-body p-0">
+                            <p class="text-secondary mb-0">Aplikasi Umum</p>
+                            <h5 class="card-text font-weight-bold">Pembuatan Website</h5>
+                            <p class="mb-0 text-dark">Tersedia jasa pembuatan website lainnya seperti website
+                                perusahaan,
+                                portofolio dll.</p>
+                            <div class="d-flex justify-content-between mt-2 p-3 cta-catalogue">
+                                <div>
+                                    <div class="d-flex flex-column">
+                                        <div class="h6">Total Komisi:
+                                        </div>
+                                        <div class="h5 font-weight-bold">150rb - 3jt</div>
+                                    </div>
+                                </div>
+                                <a href="#" class=" ml-auto my-auto primary" target="_blank">Detail -></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Footer Section -->
+    <section class="main d-flex pb-3 pt-5 bg-white">
+        <div class="container-fluid align-items-center justify-content-center">
+            <div class="row px-lg-5 px-xl-5 mx-lg-5 mx-xl-5">
+                <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 py-3 py-md-3">
+                    <img src="assets/logo.svg" width="auto" height="28" alt="" class="d-inline-block align-middle mr-2">
+                    <!-- always visible on any screen -->
+                    <p class="my-2 text-dark font-weight-light" style="line-height: 2rem;">
+                        Jasa konsultan IT, perdagangan software & hardware, juga pengembangan software pemerintahan.
+                    </p>
+                    <button type="button" class="btn btn-circle" href="#">
+                        <i class="fa-brands fa-instagram text-dark"></i>
+                    </button>
+                    <button type="button" class="btn btn-circle " href="#">
+                        <i class="fa-brands fa-twitter text-dark"></i>
+                    </button>
+                    <button type="button" class="btn btn-circle" href="#">
+                        <i class="fa-brands fa-youtube text-dark"></i>
+                    </button>
+                </div>
+
+                <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 py-3 py-md-3">
+                    <h2 class="display-5 font-weight-bold text-dark">
+                        Akses Cepat
+                    </h2>
+
+                    <!-- List -->
+                    <ul class="list-unstyled list-py-1 mb-0">
+                        <li><a class="link-sm link-secondary text-dark" href="https://www.sadigit.co.id/"
+                                target="_blank">Web Utama<i class="bi-box-arrow-up-right small ms-1"></i></a></li>
+                        <li><a class="link-sm link-secondary text-dark " href="https://www.arraydigital.co.id/"
+                                target="_blank">Array
+                                Digital</a></li>
+                        <li><a class="link-sm link-secondary text-dark " href="http://sumedanglaptop.com/"
+                                target="_blank">Sumedang Laptop</a></li>
+                    </ul>
+                    <!-- End List -->
+                </div>
+
+                <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 py-3 py-md-3">
+                    <h2 class="display-5 font-weight-bold text-dark ">
+                        Product
+                    </h2>
+
+                    <!-- List -->
+                    <ul class="list-unstyled list-py-1 mb-0">
+                        <li><a class="link-sm link-secondary text-dark" href="#">Simasko 2<i
+                                    class="bi-box-arrow-up-right small ms-1"></i></a></li>
+                        <li><a class="link-sm link-secondary text-dark " href="#">Smart Resto 3</a></li>
+                        <li><a class="link-sm link-secondary text-dark " href="#">Smart Grosir Online</a>
+                        </li>
+                        <li><a class="link-sm link-secondary text-dark" href="#">Sofware Mesin Antrian</a>
+                        </li>
+
+                    </ul>
+                    <!-- End List -->
+                </div>
+
+                <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 py-3 py-md-3">
+                    <h2 class="display-5 font-weight-bold text-dark">
+                        Hubungi Kami
+                    </h2>
+
+                    <!-- List -->
+                    <ul class="list-unstyled list-py-1 mb-5">
+                        <li>
+                            <p class="text-dark">
+                                <i class="fa-solid fa-envelope mr-2"></i> admin@sadigit.co.id
+                            </p>
+                        </li>
+                        <li>
+                            <p class="text-dark">
+                                <i class="fa-solid fa-phone mr-2"></i>(0261) 2148486
+                            </p>
+                        </li>
+                        <li>
+                            <p class="text-dark">
+                                <i class="fa-brands fa-whatsapp-square mr-2"></i> 0853-1513-1514
+                            </p>
+                        </li>
+
+                        <li>
+                            <p class="text-dark">
+                                <i class="fa-solid fa-location-dot mr-2"></i>Perum Golden Housing Islamic Blok K No 7,
+                                Kotakulon, Kec. Sumedang Sel., Kabupaten Sumedang, Jawa Barat 45311
+                            </p>
+                        </li>
+                    </ul>
+                    <!-- End List -->
+                </div>
+            </div>
+            <!-- End Row -->
+
+            <!-- Copyright -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="w-md-85 text-lg-center mx-lg-auto">
+                        <p class="text-dark font-talas-body text-center">© 2022 Sadigit Affiliate.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- End Copyright -->
+        </div>
+    </section>
+
+    <!--JS-->
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+        // ketika pengunjung scroll kebawah 20px dari atas dokumen, maka tampilkan tombol scroll-btn
+        window.onscroll = function () {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("scroll-btn").style.display = "block";
+            } else {
+                document.getElementById("scroll-btn").style.display = "none";
+            }
+        }
+
+        // ketika tombol tersebut di klik, maka lakukan scroll keatas laman
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/gh/blanter/design@master/blanter-owlcarousel.js"></script>
+    <script>
+        //<![CDATA[
+        // Enable Owl Carousel
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            center: true,
+            items: 3,
+            margin: 15,
+            autoplay: true,
+            dots: true,
+            nav: true,
+            autoplayTimeout: 8500,
+            smartSpeed: 450,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                768: {
+                    items: 2
+                },
+                1170: {
+                    items: 2
+                }
+            }
+        });
+        //]]>
+    </script>
+    <script>
+        $(function () {
+            $(window).scroll(function () {
+                if ($(this).scrollTop() > 500) {
+                    $('.logo').attr('src',
+                        './assets/img/logo2.png'
+                    );
+                }
+                if ($(this).scrollTop() < 500) {
+                    $('.logo').attr('src',
+                        './assets/img/logo.png'
+                    );
+                }
+            })
+        });
+    </script>
+
+</body>
+
+</html>
