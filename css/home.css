@@ -139,6 +139,13 @@ li {
 	background-color: #f8fcf3;
 	border-radius: 16px;
 }
+a:hover {
+	color: #20b565;
+	text-decoration: none;
+}
+.li a {
+	color: #343a40;
+}
 .produk {
 	background: #ffffff url(../assets/bg-keuntungan.svg) no-repeat;
 }
@@ -163,8 +170,17 @@ li {
 #scroll-btn:hover {
 	background-color: #20b565;
 }
-
 /* Caraosel Beranda */
+#header-blanter {
+	box-shadow: 0 1px 3px rgb(0 0 0 / 15%);
+	height: 65px;
+	font-size: 1rem;
+	color: #222;
+	padding: 5px 10px;
+	position: relative;
+	margin: 0;
+}
+
 #header-blanter h1 {
 	margin: 12px;
 	color: #fff;
@@ -205,7 +221,7 @@ a {
 	overflow: hidden;
 	width: 100%;
 	transform: scale(1.7);
-	padding: 80px 0;
+	padding: 120px 0;
 }
 .owl-carousel .owl-item,
 .owl-carousel .owl-wrapper {
@@ -224,9 +240,11 @@ a {
 	transition: all .4s ease-in-out;
 }
 .owl-carousel .owl-item img {
+	background: #eee;
 	display: block;
 	width: 100%;
 	border-radius: 5px;
+	height: 215px;
 	object-fit: cover;
 }
 .owl-carousel .owl-dots.disabled,
@@ -398,7 +416,13 @@ a {
 }
 .owl-carousel .owl-nav button.owl-next,
 .owl-carousel .owl-nav button.owl-prev {
-	display: none;
+	box-shadow: 0 5px 8px rgb(0 0 0 / 15%);
+	background: #fff;
+	height: 50px;
+	line-height: 0;
+	width: 50px;
+	border-radius: 100%;
+	position: absolute;
 }
 .owl-carousel .owl-nav button.owl-next {
 	right: 18%;
@@ -419,4 +443,15 @@ a {
 	.owl-nav {
 		display: none;
 	}
+}
+.badge-produk {
+	position: absolute;
+	top: 2px;
+	left: -14px;
+	background-color: #134357;
+	color: #ffffff;
+	font-size: 14px;
+	font-weight: 500;
+	padding: 10px 14px;
+	border-radius: 20px 48.5px 48.5px 20px;
 }
